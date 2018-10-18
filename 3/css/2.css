@@ -1,0 +1,50 @@
+div {
+  text-align: center;
+}
+
+.About {
+  font-size: 1em;
+}
+
+.numbersTable {
+  font-size: 1em;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border: solid 1px #999;
+}
+
+td {
+  min-width: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+td.selected {
+  color: white;
+  background-color: #672c2c;
+  border: solid 1px #000000;
+}
+
+#btnGenerate {
+  width: 100px;
+  height: 20px;
+  color: red;
+  background-position: center;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: right;
+  white-space: normal;
+}

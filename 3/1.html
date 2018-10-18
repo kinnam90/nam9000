@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="header">
+
+    <ul>
+        <li>
+            <h1>Bingo Game</h1>
+
+        </li>
+        <li class="form">
+            <label for="max-number">Start 30 : </label>
+            <input onkeyup="this.value=this.value.replace(/[^\d]/,'')" id="max-number" value="30" maxlength="4"
+                   type="text">
+        </li>
+        <li class="form">
+            <label for="max-row">Number of users:</label>
+            <input type="text" onkeyup="this.value=this.value.replace(/[^\d]/,'')" id="max-row" value="1" maxlength="2"
+                   id="max-row">
+        </li>
+        <li class="img">
+        	 <img src="image/images.jpg" alt="logo">
+        </li>
+        <li class="form">
+        	       	
+            <button class="button-submit btn-run" id="btn-submit" onclick="document.getElementById('sound').play();" preload="auto" >
+                Run
+                <audio id="sound" src="music/BecauseILoveYou-PianoRomanticseaBea_nfdb.mp3" preload="auto"></audio>
+            </button>
+                
+        </li>
+    </ul>
+</div>
+			<div class="content-main">
+			    <div class="content">
+
+			    </div>
+			</div>
+			
+
+			<script src="js/jquery-3.3.1.min.js"></script>
+			<script src="js/bingojs.js"></script>
+</body>
+</html>
